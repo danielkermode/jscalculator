@@ -18,7 +18,7 @@ function clickHandler(e) {
       answer = currentInput;
       break;
     case 'ANS':
-      currentInput += answer.toString();
+      currentInput = answer.toString();
       break;
     default:
       currentInput += this.textContent;
